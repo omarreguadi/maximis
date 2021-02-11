@@ -1,6 +1,19 @@
-# WorkAdventure Map Starter Kit
+# WorkAdventure Map for Das-Labor
 
-This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
+A map for [WorkAdventure](https://workadventu.re) showing 
+[Das Labor](https://das-labor.org) in Bochum.
+
+
+https://virtuallab.das-labor.org/
+
+## EG
+
+![Bild](main.png)
+
+## UG
+
+![Bild](basement.png)
+
 
 ## Tools you will need
 
@@ -8,55 +21,19 @@ In order to build your own map for WorkAdventure, you need:
 
 - the [Tiled editor](https://www.mapeditor.org/) software
 - "tiles" (i.e. images) to create your map (this starter kit provides a good default tileset for offices)
-- a web-server to serve your map (this starter kit proposes to use Github static pages as a web-server which is both free and performant)
 
-## Getting started
+## Customizing the map
 
-On the [Github repository page](https://github.com/thecodingmachine/workadventure-map-starter-kit),
-click the **"Use this template"** button. You will be prompted to enter a repository name for your map.
+You find the main map in `main.json`. You can open and edit
+it with the [Tiled](https://www.mapeditor.org/) editor.
 
-![](docs/create_repo.png)
+After push it will be deployed to branch `gh-pages` and made available to
+github pages.
 
-Be sure to keep the repository "Public".
+The page leading to the workadventure-room is
+https://das-labor.github.io/workadv_das-labor/
 
-In your newly created repository, click on the **Settings tab** and scroll down to the **GitHub Pages** section.
-Then select the **gh-pages** branch. 
-
-![](docs/github_pages.png)
-
-Wait a few minutes a Github will deploy a new website with the content of the repository.
-The address of the website is visible in the "GitHub Pages" section.
-
-![](docs/website_address.png)
-
-Click on the link. You should be redirected directly to WorkAdventure, on your map!
-
-## Customizing your map
-
-Your map is now up and online. You need to customize it.
-
-### Cloning the map
-
-Start by cloning the map. If you are used to Git and GitHub, simply clone the map
-to your computer using your preferred tool and [jump to the next chapter](#loading-the-map-in-tiled).
-
-If you are new to Git, cloning the map means downloading the map to your computer.
-To do this, you will need Git, or a Git compatible tool. Our advice is to use
-[GitHub Desktop](https://desktop.github.com/).
-
-TODO: test and continue
-
-### Loading the map in Tiled
-
-The sample map is in the file `map.json`.
-You can load this file in [Tiled](https://www.mapeditor.org/).
-
-Now, it's up to you to edit the map and write your own map.
-
-Some resources regarding Tiled:
-
-- [Tiled documentation](https://doc.mapeditor.org/en/stable/manual/introduction/)
-- [Tiled video tutorials](https://www.gamefromscratch.com/post/2015/10/14/Tiled-Map-Editor-Tutorial-Series.aspx)
+Feel free to make pull requests.
 
 ### About WorkAdventu.re maps
 
@@ -68,12 +45,25 @@ In particular, you will need to:
 - configure the "floor layer" (so that WorkAdventure can correctly display characters above the floor, but under the ceiling)
 - eventually, you can place exits that link to other maps
 
-All this is described in the [WorkAdventure documentation](https://github.com/thecodingmachine/workadventure/#designing-a-map).
+All this is described in the [WorkAdventure documentation](https://workadventu.re/create-map.html#about-workadventu-re-maps).
 Please be sure to check it out. 
 
-### Pushing the map
+## Related Links
 
-When your changes are ready, you need to "commit" and "push" the changes back to GitHub.
-Just wait a few minutes, and your map will be propagated automatically to the GitHub pages web-server.
+- [rc world link](https://links.rc3.world/)
+- [rc3 map urls](https://gist.github.com/MichaelKreil/e967f4b91b3c147fc8b414f88bde9dae)
+- [map validator](https://github.com/tiefpunkt/rc3-world-map-validator)
+- [chaos-world entrance](https://play.wa.binary-kitchen.de/_/global/c0c0bird.github.io/chaos-world/main.json)
+- [chaos-world repo](https://github.com/c0c0bird/chaos-world)
+- fediventure: [repo](https://gitlab.com/fediventure/fediventure), [pad](https://pad.inf.re/p/fediventure)
+- [rc3 overview](https://miro.com/app/board/o9J_laWLPI8=/)
+- [rc3 World dump](https://github.com/rC3XBill/rC3World)
+- [rc3 world images](https://archive.org/details/rc3_complete/)
+- [tilesets](https://opengameart.org/content/terrain-transitions)
 
-TODO: describe how to push
+## Credit
+
+- Backgroundsound: [Dave of defeat](https://freesound.org/people/DaveOfDefeat2248/sounds/323090/)
+- Dripping sound in basement [antwerpsoundesign](https://freesound.org/people/antwerpsounddesign/sounds/547253/)
+
+
