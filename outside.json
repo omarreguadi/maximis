@@ -43,7 +43,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/das-labor.github.io\/workadv_das-labor\/outside_info.html"
+                 "value":"https:\/\/www.youtube.com\/watch?v=jofNR_WkoCE"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -61,7 +61,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/bandcamp.com\/EmbeddedPlayer\/album=2120981865\/size=large\/bgcol=ffffff\/linkcol=0687f5\/tracklist=false\/transparent=true\/"
+                 "value":"https:\/\/www.youtube.com\/watch?v=wQP9XZc2Y_c"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -76,7 +76,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":26,
          "x":0,
          "y":0
@@ -88,7 +88,7 @@
          "name":"bottom",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":26,
          "x":0,
          "y":0
@@ -112,7 +112,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -129,7 +129,7 @@
                  "value":3
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":26,
          "x":0,
          "y":0
